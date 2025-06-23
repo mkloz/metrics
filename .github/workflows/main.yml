@@ -16,4 +16,6 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          user: mkloz
+          filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
