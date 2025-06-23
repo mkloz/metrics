@@ -19,3 +19,10 @@ jobs:
           user: mkloz
           filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          template: classic
+          base: header, activity, community, repositories, metadata
+          plugin_lines: yes
+          plugin_people: yes
+          plugin_people_types: location
+          config_display: large
+          config_display_footer: no
